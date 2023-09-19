@@ -3,81 +3,78 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>css tutorial</title>
-        <style>
-div#a2{
-width: 400px;
-height: 400px;
-background: blue;
-margin: auto;
-text-align: center;
-line-height: 400px;
-font-size:xx-large;
-border: 10px solid yellow;
-font-weight: 100;
-
-}
-#a1{
-width: 400px;
-height: 400px;
+        <title>child parent relationship</title>
+<style>
+#p{
+width: 200px;
+height: 200px;
 background: red;
-border-radius: 10px;
-margin: auto;
-text-align: center;
-line-height: 400px;
-border: 10px solid black;
-margin-bottom: 200px;
-margin-top: 200px;
-box-shadow: 10px 10px 10px blue;
-font-style: italic;
-font-weight: 100;
+border: 2px solid black;
 }
-a#a3{
-text-decoration: none;
-text-shadow:5px 5px 4px blue ;
-color: brown;
-margin: block 10px;
+#c1{
+width: 100px;
+height: 100px;
+background: orange;
+
+
 }
-img#a4{
-margin: auto;
-width: auto;
-height: auto;
-background-color: black;
-border-color: black;
-margin-top: 200px;
-display: block;
-margin-top: 200px;
-}
-div#a5{
-width: 500px;
-height: 500px;
-background-color: black;
+#c2{
+width: 100px;
+height: 100px;
+background: green;
 
 
 
 }
+#cc2{
+height: 50px;
+width: 50px;
+background: black;
+
+}
+
+#p:hover #c1{
+background: white;
+border-radius: 100px;
+
+}
+
+#p:hover #cc2{
+background: blue; 
+border-radius: 50px;
+
+
+}
+
+#c2
+{
+border-radius: 100px;
 
 
 
-        </style>
+}
+
+
+</style>
     </head>
     <body>
+<div id="p">
 
-<a id="a3" href="arbworld.com">Go to my website</a>
-<img id="a4" src="/s.jpeg" alt="">
+<div id="c1">
 
-
-
-<div id="a5">khan</div>
+<div id="cc2"></div>
 
 
+</div>
+
+<div id="c2"></div>
 
 
 
-    
-    <div id="a1">ARBAAZ</div>    
 
-<div id="a2">kaif</div>
 
+
+</div>
+        
     </body>
 </html>
